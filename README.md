@@ -1,6 +1,7 @@
 
 # Quiz App 🎯
 
+
 A simple and interactive quiz web application built using **HTML**, **CSS**, and **JavaScript**.
 
 ## 🚀 Features
