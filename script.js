@@ -6,7 +6,7 @@ const quizData = [
   },
   {
     question: "What is 20 + 5 + 5678 * 2?",
-    options: ["3", "411705", "5", "6"],
+    options: ["11456", "411705", "15415", "112546"],
     answer: "4"
   },
   {
