@@ -5,8 +5,8 @@ const quizData = [
     answer: "Delhi"
   },
   {
-    question: "What is 2 + 2?",
-    options: ["3", "4", "5", "6"],
+    question: "What is 20 + 5 + 5678 * 2?",
+    options: ["3", "411705", "5", "6"],
     answer: "4"
   },
   {
