@@ -19,7 +19,7 @@ A simple and interactive quiz web application built using **HTML**, **CSS**, and
 ![Screenshot](screenshot.png)
 
 ## 🔗 Live Demo
-[Click here to try the Quiz App](https://yourusername.github.io/quiz-app/)
+[Click here to try the Quiz App](https://Souravian001.github.io/quiz-app/)
 
 ## 📁 How to Use
 1. Clone the repository or download the ZIP.
