@@ -7,7 +7,7 @@ const quizData = [
   {
     question: "What is 20 + 5 + 5678 * 2?",
     options: ["11456", "411705", "15415", "112546"],
-    answer: "4"
+    answer: "11456"
   },
   {
     question: "Which planet is known as Red Planet?",
