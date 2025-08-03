@@ -1,33 +1,89 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
-  font-family: Arial;
-  background: #f4f4f4;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: #fff;
+  height: 100vh;
   display: flex;
+  align-items: center;
   justify-content: center;
-  padding: 50px;
 }
+
+/* Container Box */
 .container {
-  background: white;
-  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+/* Heading */
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Question Box */
+#questionBox {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.15);
   border-radius: 10px;
-  width: 400px;
 }
-button {
-  margin-top: 10px;
+
+/* Options */
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#options button {
   padding: 10px;
-  background: #007bff;
-  color: white;
+  background-color: #ffffff;
+  color: #333;
   border: none;
-  border-radius: 5px;
-}
-button:hover {
-  background: #0056b3;
-}
-.option {
-  margin: 10px 0;
-  padding: 10px;
-  background: #eee;
+  border-radius: 8px;
+  transition: all 0.3s ease;
   cursor: pointer;
 }
-.option:hover {
-  background: #ddd;
+
+#options button:hover {
+  background-color: #d4c1f2;
+  color: #000;
+}
+
+/* Next Button */
+button[onclick="nextQuestion()"] {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button[onclick="nextQuestion()"]:hover {
+  background-color: #ffcc00;
+}
+
+/* Result Box */
+#result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
